@@ -1,0 +1,4 @@
+service vendor.hal_soter_sec /vendor/bin/hw/vendor.samsung.hardware.soter@1.0-service
+    class late_start
+    user system
+    group system input
